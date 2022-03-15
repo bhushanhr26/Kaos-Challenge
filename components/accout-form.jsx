@@ -18,6 +18,7 @@ export default function AccountForm() {
             value={inp}
             onChange={(e) => {
               setInp(e.target.value);
+              console.log(e.target.value)
             }}
           />
         </div>
@@ -36,6 +37,7 @@ export default function AccountForm() {
                 value={code}
                 onChange={(e) => {
                   setCode(e.target.value);
+                  console.log(e.target.value)
                 }}
               />
             </div>
